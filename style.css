@@ -1,0 +1,333 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(Images/software\ dev.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    background-size: cover;
+}
+.header{
+    text-align: center;
+    padding: 10px;
+    margin:0px;
+    background-color: #0c4979;
+    color: white;
+    font-size: 24px;
+    font-style: italic;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+    border: solid whitesmoke 1.5px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+} 
+.header h1 {
+    margin:0;
+    padding: 1px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+} 
+.nav{
+    background-color:ivory;
+    padding: 10px;
+
+}
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    gap: 15px;
+
+}
+.nav ul li {
+    border: solid gray 3px;
+    border-radius: 10px;
+    padding: 5px 10px;
+ 
+}
+.nav ul li a {
+    text-decoration: none;
+    color: #273F4F;
+    font-size: 16px;
+    font-weight: bold;   
+}
+.nav ul li a:hover {
+    background-color: #148ddf;
+    color: #fff;
+    
+}
+
+.hero{
+    display: flex;
+    padding: 30px;
+
+    
+}
+.hero-content{
+    text-align: center;
+    color: white;
+    max-width: 600px;
+    padding-left: 700px;
+
+}
+.hero-image{
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+.btn{
+    display: inline-block;
+      background-color: #0c4979;
+      color: white; 
+      border: solid whitesmoke 1px;
+      border-radius: 5px;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-weight: bold; 
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #75545f;
+    
+}
+.aboutme{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    justify-content: center;
+    color: rgb(5, 5, 5);
+    background-color:#0c4979;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight:300px;
+    justify-content: center;
+    line-height: 1;
+    padding: 20px;
+}
+.aboutme h2 {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight:bolder;
+    text-decoration-line: underline;
+    color:ivory;
+    text-align:center;
+}
+ .aboutme-content p{
+    font-family: Arial,sans-serif;
+    font-size: 16px;
+    color:ivory;
+    line-height: 1.5;
+
+ }
+ .services{
+    display: flex;
+    flex-direction: column;
+    background-color:#0c4979;
+    margin-top: 150px;
+    margin-bottom: 70px;
+    justify-content: center;    
+ }
+.services h2 {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: ivory;
+    text-align:center;
+    text-decoration: underline;
+}
+.services-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #0c4979;
+    color: ivory;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    gap: 10px;
+}
+.service-item{
+    background-color: #0c4979;
+    color:ivory;
+    font-size: 16px;
+    padding: 20px;
+    border: solid ivory 1px;
+    border-radius: 10px;
+    border-style: groove;
+    border-width: 2px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.service-item1{
+    background-color: #0c4979;
+    color:ivory;
+    font-size: 16px;
+    padding: 20px;
+    border: solid ivory 1px;
+    border-radius: 10px;
+    border-style: groove;
+    border-width: 2px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.service-item2{
+    background-color:#0c4979;
+    color: ivory;
+    font-size: 16px;
+    padding: 20px;
+    border: solid ivory 1px;
+    border-radius: 10px;
+    border-style: groove;
+    border-width: 2px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.service-item3{
+    background-color: #0c4979;
+    color: ivory;
+    font-size: 16px;
+    padding: 20px;
+    border: solid ivory 1px;
+    border-radius: 10px;
+    border-style: groove;
+    border-width: 2px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.footer{
+    background-color: #0c4979;
+    text-align: center;
+    padding: 0px;
+    border: solid whitesmoke 1px;
+    border-radius: 10px;
+    margin:0px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    font-style: italic;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);    
+    color:ivory;
+}
+.contact-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin-top: 10px;
+    background-color: #0c4979;
+    color:ivory;
+    font-size: 16px;
+    gap: 20px;
+    text-shadow: #000 2px 2px 5px;
+}
+.contact-info a{
+    color: #fff;
+    text-decoration: underline;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+.curriculumvitae{
+    display: inline-block;
+    justify-content:center;
+    align-items:center;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color:#0c4979;
+    color:ivory;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    gap: 20px;
+    text-shadow: #000 2px 2px 5px;
+}
+.curriculumvitae-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10px;
+    background-color:#0c4979;
+    color: ivory;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    gap: 20px;
+    text-shadow: #000 2px 2px 5px;
+    border: solid ivory 1px;
+    border-radius: 10px;
+    border-style: groove;
+}
+.curriculumvitae a{
+    color: #fff;
+    text-decoration: underline;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+.service-image{
+    width: 200px;
+    border-radius: 60%;
+    image-orientation: inherit ;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 768px) {
+    .hero{
+        font-size: 2.0em;
+    }
+    .hero-content{
+        font-size: 1.2em;
+    }
+    .hero-image{
+        font-size: 0.8em;
+        padding: 8px 16px;
+
+    }
+    .btn{
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    .hero{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-content{
+        padding-left: 0;
+    }
+    .hero-image{
+        width: 150px;
+    }
+    .btn{
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .services-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .service-item{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .service-item1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .service-item2{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .service-item3{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
